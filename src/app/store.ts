@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import mediaReducer from '../features/mediaSearch/mediaSearchSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    media: mediaReducer,
   },
 });
 
